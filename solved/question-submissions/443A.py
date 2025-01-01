@@ -1,0 +1,1 @@
+print(len(set([letter.strip() for letter in input()[1:-1].split(',') if letter != ""])))
